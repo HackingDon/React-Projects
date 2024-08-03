@@ -1,0 +1,35 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(42, 224, 155);
+}
+.link {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+.link li {
+  background-color: rgb(96, 230, 223);
+  height: 200px;
+  width: 200px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: aliceblue;
+}
+
+.link li:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px aliceblue, 0 0 50px aliceblue, 0 0 75px aliceblue,
+    0 0 100px aliceblue;
+}
